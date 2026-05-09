@@ -1,0 +1,52 @@
+body {
+font-family: Arial;
+background: #f2f2f2;
+margin: 0;
+padding: 0;
+}
+.container {
+width: 80%;
+margin: auto;
+margin-top: 30px;
+background: white;
+padding: 30px;
+border-radius: 10px;
+}
+h1 {
+text-align: center;
+color: green;
+}
+.upload-box {
+text-align: center;
+margin-top: 20px;
+}
+button {
+padding: 10px 20px;
+background: green;
+color: white;
+  border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+button:hover {
+background: darkgreen;
+}
+#result {
+margin-top: 20px;
+font-size: 22px;
+text-align: center;
+}
+.chatbot {
+margin-top: 40px;
+}
+#chatBox {
+height: 300px;
+border: 1px solid #ccc;
+overflow-y: scroll;
+padding: 10px;
+margin-bottom: 10px;
+}
+#chatInput {
+width: 80%;
+padding: 10px;
+}
